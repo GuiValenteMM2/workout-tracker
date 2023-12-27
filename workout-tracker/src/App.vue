@@ -5,10 +5,10 @@ import Header from './components/Header.vue';
 </script>
 
 <template>
-  
-  <Header />
-  <RouterView />
+  <div class="bg-gray-600 h-screen">
+    <Header />
+    <RouterView />
+  </div>
 </template>
 
-<style scoped>
-</style>
+
