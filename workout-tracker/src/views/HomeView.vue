@@ -3,6 +3,13 @@
   import { ref } from 'vue';
 
   const workoutList = ref([]);
+
+  const addWorkout = (workout) => {
+    workoutList.value.push({
+      name: workout,
+      date: date,
+    })
+  }
   
 </script>
 
