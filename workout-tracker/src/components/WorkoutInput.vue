@@ -6,7 +6,6 @@
   const workout = reactive({
     name: "",
     date: "",
-    exercises: [],
     invalid: null,
     errMsg: "",
   });

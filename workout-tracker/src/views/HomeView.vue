@@ -5,11 +5,10 @@
 
   const workoutList = ref([]);
 
-  const addWorkout = (name, date, exercises) => {
+  const addWorkout = (name, date,) => {
     workoutList.value.push({
       name: name,
       date: date,
-      exercises: exercises,
     })
   }
   
