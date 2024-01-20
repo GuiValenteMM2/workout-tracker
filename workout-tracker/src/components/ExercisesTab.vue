@@ -22,7 +22,12 @@ defineProps({
 </script>
 
 <template>
-    <div>
-        palopapa
-    </div>
+    <tr class="">
+        <td class="p-2">{{ name }}</td>
+        <td class="p-2">{{ sets }}</td>
+        <td class="p-2">{{ reps }}</td>
+        <td class="p-2">{{ weight }}</td>
+        <td>mexer</td>
+        <td>excluir</td>
+    </tr>
 </template>

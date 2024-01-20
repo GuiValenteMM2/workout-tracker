@@ -5,13 +5,15 @@
 
   const workoutList = ref([]);
 
-  const addWorkout = (name, date,) => {
+  const addWorkout = (name, date) => {
     workoutList.value.push({
       name: name,
       date: date,
     })
   }
   
+  const showBool = ref(false);
+
 </script>
 
 <template>
@@ -20,7 +22,9 @@
     <ul>
       <WorkoutTab v-for="workout in workoutList"
       :name="workout.name" 
-      :date="workout.date"/>
+      :date="workout.date"
+      :show="showBool"
+      @show-exercises="showBool = !showBool"/>
     </ul>
   </main>
 </template>
