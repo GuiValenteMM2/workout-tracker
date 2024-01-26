@@ -20,7 +20,7 @@
     };
     workout.invalid = true;
     workout.errMsg = "* Por favor preencha os campos!";
-  }
+  };
 </script>
 
 <template>

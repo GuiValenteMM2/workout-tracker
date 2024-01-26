@@ -1,5 +1,7 @@
 <script setup>
 
+defineEmits(['add-exercise']);
+
 defineProps({
     name: {
         type: String,
@@ -17,7 +19,7 @@ defineProps({
         type: String,
         required: true,
     }
-})
+});
 
 </script>
 
