@@ -8,6 +8,7 @@
     date: "",
     invalid: null,
     errMsg: "",
+    show: false,
   });
 
   const addWorkout = () => {
