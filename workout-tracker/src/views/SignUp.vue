@@ -1,13 +1,7 @@
-<template>
-  <div>
-    Hi Mom
-  </div>
-</template>
-
 <script setup>
-
+import SignUpForms from '@/components/SignUpForms.vue';
 </script>
 
-<style lang="scss" scoped>
-
-</style>
+<template>
+  <SignUpForms />
+</template>
