@@ -15,7 +15,7 @@
   const addExercise = () => {
     exercise.invalid = false;
     for (let key in exercise) {
-        if (exercise[key] !== "") {
+        if (exercise[key] != "") {
             emit('add-exercise', exercise.name, exercise.sets, exercise.reps, exercise.weight);
             exercise.name = "";
             exercise.sets = "";

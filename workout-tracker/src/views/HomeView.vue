@@ -1,5 +1,5 @@
 <script setup>
-  import WorkoutTab from '@/components/WorkoutTab.vue';
+  import WorkoutTab from '../components/WorkoutTab.vue';
   import Workout from '../components/WorkoutInput.vue';
   import { ref } from 'vue';
   import { uid } from 'uid';

@@ -1,11 +1,9 @@
 <script setup>
-import SignUpForms from '../components/SignUpForms.vue';
-
-
+import SignInForms from '../components/SignInForms.vue';
 </script>
 
 <template>
   <div class="flex justify-center align-center p-8">
-    <SignUpForms />
+    <SignInForms />
   </div>
 </template>

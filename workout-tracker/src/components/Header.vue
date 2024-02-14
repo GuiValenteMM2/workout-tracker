@@ -12,7 +12,7 @@ import { RouterLink } from 'vue-router';
        >Meus Treinos</RouterLink>
       <RouterLink 
       class="focus:border-b-solid active:border-b-white border-transparent border-2 active:font-bold" to="/signup"
-      >Cadastre-se</RouterLink>
+      >Entrar</RouterLink>
     </nav>
   </div>
 </template>
