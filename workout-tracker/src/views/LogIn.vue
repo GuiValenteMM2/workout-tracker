@@ -1,9 +1,11 @@
 <script setup>
-import SignInForms from '../components/SignInForms.vue';
+import LogInForms from '../components/LoginForms.vue';
+
+
 </script>
 
 <template>
   <div class="flex justify-center align-center p-8">
-    <SignInForms />
+    <LogInForms />
   </div>
 </template>

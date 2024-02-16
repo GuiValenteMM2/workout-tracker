@@ -11,7 +11,7 @@ import { RouterLink } from 'vue-router';
        class="focus:border-b-solid active:border-b-white border-transparent border-2 active:font-bold" to="/"
        >Meus Treinos</RouterLink>
       <RouterLink 
-      class="focus:border-b-solid active:border-b-white border-transparent border-2 active:font-bold" to="/signup"
+      class="focus:border-b-solid active:border-b-white border-transparent border-2 active:font-bold" to="/login"
       >Entrar</RouterLink>
     </nav>
   </div>
