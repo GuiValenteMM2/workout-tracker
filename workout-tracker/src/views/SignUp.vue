@@ -1,16 +1,17 @@
 <script setup>
 import SignUpForms from '../components/SignUpForms.vue';
-
-import axios from 'axios';
+import { uid } from 'uid';
+import UserDataService  from "../services/userDataService";
 
 const newUser = (name, email, password) => {
-  axios.post('localhost:5137/signup', {
+  UserDataService.create({
+    id: uid(),
     name: name,
     email: email,
     password: password,
   })
   .then((response) => {
-    console.log("Resposta do server: ", response.data);
+    console.log("Sucesso: ", response.data);
   })
   .catch((error) => {
     console.log("Erro ao enviar cadastro: ", error);
